@@ -60,12 +60,7 @@ public class ImagesAdapter extends RecyclerView.Adapter<ImagesAdapter.ViewHolder
         notifyDataSetChanged();
     }
 
-    @Override
-    public void onViewRecycled(@NonNull ViewHolder holder) {
-        super.onViewRecycled(holder);
-//        glide.clear(holder.getImageView());
-    }
-
+  
     @Override
     public int getItemCount() {
         return listOfImages != null ? listOfImages.size() : 0;
