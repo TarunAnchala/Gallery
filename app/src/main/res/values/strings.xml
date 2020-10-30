@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="data_not_available">Sorry,Data not Available</string>
+    <string name="network_not_available">Sorry,Network not Available</string>
+</resources>
